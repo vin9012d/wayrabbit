@@ -1,0 +1,23 @@
+.formdiv{
+width: 500px;
+margin: auto;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+padding: 25px;
+}
+.formdiv input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.formbutton{
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(39, 39, 248);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+}
+.formbutton:hover{
+    background-color:rgb(88, 88, 248);
+}

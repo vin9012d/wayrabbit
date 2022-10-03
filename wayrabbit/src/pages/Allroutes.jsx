@@ -6,7 +6,8 @@ import { Login } from './Login'
 import { Signup } from './Signup'
 
 export const Allroutes = () => {
-  return (
+    return (
+      
       <Routes>
           < Route path='/' element={<Homepage />}  />
           < Route path='/signup' element={<Signup />}  />
