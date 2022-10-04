@@ -1,4 +1,4 @@
-//Write the ActionCreator functions here
+
 import axios from "axios"
 
 import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS } from "./actiontype"

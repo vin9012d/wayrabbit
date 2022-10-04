@@ -6,7 +6,7 @@ import {useSelector} from "react-redux"
 
 function App() {
 const data=useSelector((store)=>store)
-console.log(data,'data')
+
   return (
     <div className="App">
   <Allroutes />

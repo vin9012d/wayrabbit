@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from "./Signup.module.css";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 export const Signup = () => {
 
     const [data, setData] = useState({
@@ -27,7 +28,10 @@ export const Signup = () => {
             // console.log(res.data, 'data')
             alert("Sucessfully Signed up")
             navigate("/login")
-        }).catch((err) => console.log(err, 'err'))
+        }).catch((err) => {
+            alert("Something went wrong please try again later")
+            console.log(err, 'err')
+        })
         
         
 
@@ -35,6 +39,8 @@ export const Signup = () => {
 
   return (
       <div>
+          <Navbar />
+
           <h1>Signup from</h1>
 
           <div className={styles.formdiv}>

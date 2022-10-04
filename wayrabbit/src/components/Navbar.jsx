@@ -20,6 +20,10 @@ const links = [
   {
     to: "/login",
     title: "Login"
+  },
+  {
+    to: "/addnew",
+    title: "Addnew"
   }
 ];
 
@@ -36,7 +40,7 @@ const activeStyle = {
 
 function Navbar() {
   return (
-    <div style={{ display: "flex", gap: "2rem", justifyContent: "center" }}>
+    <div style={{ display: "flex", gap: "2rem", justifyContent: "center", marginTop:"20px", marginBottom:"20px" }}>
       {links.map((item) => (
         
         <NavLink
